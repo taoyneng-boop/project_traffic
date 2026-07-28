@@ -1,0 +1,4 @@
+﻿mode,path,rows,avg_annotation_count
+concat,label_data\multi_annotation_fusion\meta0713_fixed120_concat.csv,456,5.925438596491228
+normalized,label_data\multi_annotation_fusion\meta0713_fixed120_normalized.csv,456,5.925438596491228
+structured,label_data\multi_annotation_fusion\meta0713_fixed120_structured.csv,456,5.925438596491228

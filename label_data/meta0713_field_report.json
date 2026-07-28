@@ -1,0 +1,74 @@
+{
+  "row_count": 456,
+  "columns": [
+    "file_name",
+    "light_conditions",
+    "weather",
+    "scene",
+    "alert_frame_vip",
+    "event_frame_vip",
+    "category"
+  ],
+  "field_meanings": {
+    "file_name": "视频编号，不带 .avi 后缀，例如 00822 对应 00822.avi",
+    "light_conditions": "光照条件，例如 Normal、Bright 等",
+    "weather": "天气条件，例如 Clear、Cloudy 等",
+    "scene": "道路场景，例如 Urban、Sub-urban、Highway、Other",
+    "alert_frame_vip": "人工标注的风险预警帧，表示事故前可观察风险开始出现的位置",
+    "event_frame_vip": "事故发生帧，通常是碰撞或异常事件发生的位置",
+    "category": "事故类别编号：1异方向-右，2异方向-左，3异方向-中，4同方向-右后，5同方向-右前，6同方向-左后，7同方向-左前，8同方向-中"
+  },
+  "category_counts": {
+    "1": 49,
+    "2": 54,
+    "3": 31,
+    "4": 23,
+    "5": 89,
+    "6": 24,
+    "7": 68,
+    "8": 118
+  },
+  "category_meanings": {
+    "1": {
+      "zh": "异方向-右",
+      "risk_type": "opposite_direction_right_conflict",
+      "en": "opposite-direction right-side collision conflict"
+    },
+    "2": {
+      "zh": "异方向-左",
+      "risk_type": "opposite_direction_left_conflict",
+      "en": "opposite-direction left-side collision conflict"
+    },
+    "3": {
+      "zh": "异方向-中",
+      "risk_type": "opposite_direction_center_conflict",
+      "en": "opposite-direction frontal center collision conflict"
+    },
+    "4": {
+      "zh": "同方向-右后",
+      "risk_type": "same_direction_right_rear_conflict",
+      "en": "same-direction right-rear collision conflict"
+    },
+    "5": {
+      "zh": "同方向-右前",
+      "risk_type": "same_direction_right_front_conflict",
+      "en": "same-direction right-front collision conflict"
+    },
+    "6": {
+      "zh": "同方向-左后",
+      "risk_type": "same_direction_left_rear_conflict",
+      "en": "same-direction left-rear collision conflict"
+    },
+    "7": {
+      "zh": "同方向-左前",
+      "risk_type": "same_direction_left_front_conflict",
+      "en": "same-direction left-front collision conflict"
+    },
+    "8": {
+      "zh": "同方向-中",
+      "risk_type": "same_direction_center_conflict",
+      "en": "same-direction center rear-end or forward collision conflict"
+    }
+  },
+  "note": "category 已根据用户补充说明转换为中文类别和英文 CLIP 文本语义。"
+}

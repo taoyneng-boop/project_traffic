@@ -1,0 +1,2 @@
+﻿run_name,seed,lora_rank,lora_alpha,lr,cls_weight,epochs,trainable_parameters,before_acc,after_acc,after_r1,after_r5,after_r10,after_mean_rank,after_margin,train_loss,output_dir
+r8_a16_lr1em04_s42,42,8,16.0,0.0001,0.3,12,741385,0.06521739065647125,0.3478260934352875,0.358695652173913,0.7717391304347826,0.9021739130434783,4.260869565217392,-0.004954262596109639,0.7222096881140834,meta0713_fusion_normalized_lora_ep12\r8_a16_lr1em04_s42

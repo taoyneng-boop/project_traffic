@@ -1,0 +1,3 @@
+﻿method,model,text_strategy,temporal_head,epochs,top1,acc,r5,mean_rank,overfit_gap
+baseline_vitb32_lora_ep12,ViT-B/32,fixed120 original,mean pooling,12,0.11956521739130435,0.42391306161880493,0.3804347826086957,13.33695652173913,
+compact_semantic_union_vitb16_attention_lora_hardneg_train90_ep12,ViT-B/16,semantic_union,attention,12,0.06521739130434782,0.43478262424468994,0.3695652173913043,12.23913043478261,0.17741249770652956
